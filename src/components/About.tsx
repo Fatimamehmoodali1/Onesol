@@ -18,7 +18,7 @@ const About = () => {
           they set new ones.
         </p>
         <p>
-          Whether it’s designing a compelling brand identity, developing intuitive digital products, or implementing
+          Whether it&apos;ts designing a compelling brand identity, developing intuitive digital products, or implementing
           cutting-edge marketing strategies, we approach every project with a commitment to excellence and a focus on
           measurable results.
         </p>
