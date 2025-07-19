@@ -2,7 +2,7 @@ import './globals.css'
 import '../styles/responsive.css';
 import { karla } from 'next/font/google'
 
-const karla = karla({ subsets: ['karla'] })
+const karla = karla({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Onesol',
