@@ -132,7 +132,7 @@ export default function Blog() {
           </div>
           <p className="info-description">
             we know the pain of traditional, development, trust us. At Onesol
-            we're up to 10x faster than your current agency. Period.
+            we&apos;re up to 10x faster than your current agency. Period.
           </p>
 
           <div className="accordion">
@@ -158,7 +158,7 @@ export default function Blog() {
   <section className="cta-section">
     <div className="cta-content">
       <div className="cta-texts">
-        <p className="cta-subtitle">We're here to help to grow your business.</p>
+        <p className="cta-subtitle">We&apos;re here to help to grow your business.</p>
         <h2 className="cta-title">Looking for the Best IT Business Solutions?</h2>
       </div>
       <button className="cta-button">LEARN MORE</button>
