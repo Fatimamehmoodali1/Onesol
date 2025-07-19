@@ -113,7 +113,7 @@ export default function AboutPage() {
         <div className="projects-header">
           <h4 className="projects-label">PROJECTS</h4>
           <h2 className="projects-title">
-            Our Latest Incredible <br /> Client's Projects
+            Our Latest Incredible <br /> Client&apos;s Projects
           </h2>
           <p className="projects-description">
             There are many variations of passages of available but majority have suffered alteration
