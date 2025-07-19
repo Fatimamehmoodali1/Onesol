@@ -1,17 +1,16 @@
 /* ===== Reset ===== */
 @import url('/styles/responsive.css');
+/* ===== Font Import (Optional - adjust if using custom fonts) ===== */
+@import url('https://fonts.googleapis.com/css2?family=karla:wght@400;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/* ===== Font Import (Optional - adjust if using custom fonts) ===== */
-@import url('https://fonts.googleapis.com/css2?family=karla:wght@400;600;700&display=swap');
-
 /* ===== Body Styling ===== */
 body {
-  font-family: 'karla', sans-serif;
+  font-family: 'karla';
   background-color: #141313; /* Same as navbar background */
   color: white;
   line-height: 1.6;
@@ -35,14 +34,3 @@ img {
   display: block;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #141313;
-  color: white;
-  font-family: karla, sans-serif;
-}
