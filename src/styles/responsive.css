@@ -1,0 +1,106 @@
+/* === GLOBAL RESPONSIVE === */
+
+/* Desktop large to medium */
+@media screen and (max-width: 1440px) {
+  .hero-left h1 {
+    font-size: 40px;
+  }
+  .hero-left p {
+    font-size: 14px;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 30px;
+  }
+
+  .nav-links-container {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 60px 40px;
+  }
+
+  .hero-left {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 36px;
+  }
+
+  .hero-shapes img {
+    width: 80px !important;
+  }
+
+  .hero-icons {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding: 16px;
+  }
+
+  .nav-links-container {
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 40px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-left h1 {
+    font-size: 28px;
+  }
+
+  .hero-left p {
+    font-size: 13px;
+  }
+
+  .hero-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .hero-shapes {
+    display: none; /* Or reposition to fit small screens better */
+  }
+
+  .cta-section,
+  .why-choose-us,
+  .project-section {
+    padding: 40px 20px !important;
+  }
+
+  .cta-title {
+    font-size: 22px;
+  }
+
+  .expert-button {
+    width: 100%;
+  }
+
+  .nav-logo {
+    width: 80px;
+  }
+}

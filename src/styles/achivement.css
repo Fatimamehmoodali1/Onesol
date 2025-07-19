@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap');
+
+
+.achievements {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 80px 100px;
+  background-color: #E2E2E2;
+  font-family: karla, sans-serif;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.achieve-left {
+  width: 50%;
+  min-width: 300px;
+}
+
+.achieve-left h4 {
+  color: orange;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.achieve-left h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.achieve-left p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  color: #333;
+  max-width: 500px;
+}
+
+.cta-btn {
+  background-color: #ffb800;
+  color: #000;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #ffa600;
+}
+
+/* Right Section */
+.achieve-right {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 45%;
+  min-width: 280px;
+}
+
+.achieve-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.circle-hover {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.circle-hover img {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.circle-hover:hover {
+  background-color: #fda500;
+  transform: scale(1.1);
+}
+
+.circle-hover:hover img {
+  transform: scale(1.2);
+}
+
+.achieve-box span {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+
+/* -------- Responsive Media Queries -------- */
+
+@media (max-width: 1024px) {
+  .achievements {
+    padding: 50px 50px 80px;
+  }
+
+  .achieve-left h2 {
+    font-size: 32px;
+  }
+
+  .achieve-left h4 {
+    font-size: 24px;
+  }
+
+  .achieve-right {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .achieve-box {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .achievements {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 30px 60px;
+  }
+
+  .achieve-left, .achieve-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .achieve-left h2 {
+    font-size: 28px;
+  }
+
+  .achieve-left p {
+    font-size: 15px;
+    margin: 0 auto 25px;
+  }
+
+  .achieve-box {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .achieve-left h2 {
+    font-size: 24px;
+  }
+
+  .achieve-left h4 {
+    font-size: 20px;
+  }
+
+  .achieve-left p {
+    font-size: 14px;
+  }
+
+  .cta-btn {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  .achieve-box span {
+    font-size: 13px;
+  }
+
+  .circle-hover {
+    width: 60px;
+    height: 60px;
+  }
+
+  .circle-hover img {
+    width: 30px;
+  }
+}
