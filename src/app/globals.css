@@ -10,7 +10,7 @@
 }
 /* ===== Body Styling ===== */
 body {
-  font-family: 'karla';
+  font-family: 'karla', sans-serif;
   background-color: #141313; /* Same as navbar background */
   color: white;
   line-height: 1.6;
@@ -24,7 +24,7 @@ a {
 
 /* Buttons */
 button {
-  font-family: karla;
+  font-family: karla, sans-serif;
 }
 
 /* Images */
