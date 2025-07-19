@@ -26,7 +26,7 @@ export default function TrustedSection() {
         <div className="container">
           <div className="cards-container">
             <div className="service-card">
-              <img src="/images/feature-1 1.png" alt="UI/UX Icon" />
+              <img src="/images/feature-1 1.jpeg" alt="UI/UX Icon" />
               <p>UI/UX Design Service</p>
             </div>
             <div className="service-card">
