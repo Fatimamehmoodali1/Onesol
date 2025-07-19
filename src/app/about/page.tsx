@@ -117,7 +117,7 @@ export default function AboutPage() {
           </h2>
           <p className="projects-description">
             There are many variations of passages of available but majority have suffered alteration
-            in some form, by humour or randomised words which don't look even slightly believable.
+            in some form, by humour or randomised words which don&apos;t look even slightly believable.
           </p>
          <div className="projects-arrows">
           <button className="arrow-btn light">&#8594;</button>
@@ -238,7 +238,7 @@ export default function AboutPage() {
         </div>
         <p className="info-description">
           we know the pain of traditional, development, trust us. At Onesol
-          we're up to 10x faster than your current agency. Period.
+          we&apos;re up to 10x faster than your current agency. Period.
         </p>
 
         <div className="accordion">
@@ -263,7 +263,7 @@ export default function AboutPage() {
     <section className="cta-section">
       <div className="cta-content">
         <div className="cta-texts">
-          <p className="cta-subtitle">We're here to help to grow your business.</p>
+          <p className="cta-subtitle">We&apos;re here to help to grow your business.</p>
           <h2 className="cta-title">Looking for the Best IT Business Solutions?</h2>
         </div>
         <button className="cta-button">LEARN MORE</button>
