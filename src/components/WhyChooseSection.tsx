@@ -40,7 +40,7 @@ const WhyChooseSection = () => {
           {/* Card 3 */}
           <div className="why-card">
             <div className="card-image">
-              <img src="/images/choose-1.png" alt="Service 3" />
+              <img src="/images/choose-3.jpeg" alt="Service 3" />
             </div>
             <div className="icon-wrapper">
               <img src="/images/icon-3.png" alt="Icon 3" />
