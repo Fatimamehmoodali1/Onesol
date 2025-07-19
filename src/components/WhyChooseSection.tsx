@@ -10,7 +10,7 @@ const WhyChooseSection = () => {
         <h2 className="choose-heading">WHY YOU SHOULD CHOOSE US</h2>
         <p className="choose-description">
           At Onesol, we combine creativity, technology, and strategy to deliver impactful digital solutions
-          that grow your business. We’re more than a service provider—we’re your reliable partner
+          that grow your business. We&apos;re more than a service provider—we&apos;re your reliable partner
           dedicated to your success.
         </p>
 
