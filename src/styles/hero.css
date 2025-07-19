@@ -23,7 +23,7 @@
   font-size: 44px;
   font-weight: 900;
   line-height: 1.2;
-  font-family: karla;
+  font-family: karla, sans-serif;
 }
 
 .hero-left h1 span {
