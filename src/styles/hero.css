@@ -95,7 +95,7 @@
 
 .hero-shapes .curve-bottom {
   position: absolute;
-  bottom: -560px; /* Curve moved up to appear like Figma */
+  bottom: -460px; /* Curve moved up to appear like Figma */
   left: -0px;
   z-index: 2;
 }
