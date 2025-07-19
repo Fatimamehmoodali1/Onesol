@@ -2,7 +2,23 @@
 
 import React from "react"; import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa"; import './blog.css';
 
-export default function Blog() { return ( <div> {/* Navbar */} <nav className="navbar"> <div className="logo"> <img src="/images/logo.png" alt="Logo" /> </div> <ul className="nav-links"> <li><a href="#">Home</a></li> <li><a href="about">About</a></li> <li><a href="ourwork">Our Work</a></li> <li><a href="services">Services</a></li> <li><a href="blog">Blog</a></li> </ul> <button className="nav-button">Contact Us</button> </nav>
+export default function Blog() { 
+  return ( 
+    <div> 
+      {/* Navbar */} 
+      <nav className="navbar"> 
+        <div className="logo"> 
+          <img src="/images/logo.png" alt="Logo" /> 
+        </div> 
+        <ul className="nav-links"> 
+          <li><a href="#">Home</a></li> 
+          <li><a href="about">About</a></li> 
+          <li><a href="ourwork">Our Work</a></li> 
+          <li><a href="services">Services</a></li> 
+          <li><a href="blog">Blog</a></li> 
+        </ul> 
+        <button className="nav-button">Contact Us</button>
+      </nav>
 
 {/* Hero Section */}
   <section className="hero">
