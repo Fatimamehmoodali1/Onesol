@@ -155,7 +155,7 @@ export default function AboutPage() {
             {[
              { image: 'team-1.png', name: 'Names' },
              { image: 'team-2.png', name: 'Names' },
-             { image: 'team-3.jpeg', name: 'Names' },
+             { image: 'team-3 3.jpeg', name: 'Names' },
             ].map((member, i) => (
          <div className="team-card" key={i}>
            <img src={`/images/${member.image}`} alt={member.name} className="team-img" />
