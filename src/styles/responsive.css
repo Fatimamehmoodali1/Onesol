@@ -96,11 +96,30 @@
     font-size: 22px;
   }
 
-  .expert-button {
+/*   .expert-button {
     width: 100%;
   }
 
   .nav-logo {
     width: 80px;
+  } */
+}
+
+@media (max-width: 768px) {
+  .nav-center {
+    display: none;
+  }
+
+  .nav-right {
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  .expert-button {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
   }
 }
