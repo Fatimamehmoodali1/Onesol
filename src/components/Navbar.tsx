@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
-import '../styles/navbar.css';         // Your existing navbar styles
-import '../styles/responsive.css';     // Global responsive rules
+import '../styles/navbar.css';
+import '../styles/responsive.css';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +12,25 @@ export default function Navbar() {
         <img src="/images/logo.png" alt="Logo" width={50} height={50} className="nav-logo" />
       </div>
 
-      <div className={`nav-center ${menuOpen ? 'active' : ''}`}>
+      {/* Hamburger */}
+      <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
+
+      {/* Mobile Nav */}
+      <div className={`mobile-nav ${menuOpen ? 'show' : ''}`}>
+        <a href="home">Home</a>
+        <a href="about">About</a>
+        <a href="ourwork">Our Work</a>
+        <a href="services">Services</a>
+        <a href="blog">Blog</a>
+        <button className="expert-button">Speak to an Expert</button>
+      </div>
+
+      {/* Desktop Nav */}
+      <div className="nav-center">
         <div className="nav-links-container">
           <a href="home">Home</a>
           <a href="about">About</a>
@@ -24,13 +42,6 @@ export default function Navbar() {
 
       <div className="nav-right">
         <button className="expert-button">Speak to an Expert</button>
-
-        {/* Hamburger Icon */}
-        <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-        </div>
       </div>
     </nav>
   );
