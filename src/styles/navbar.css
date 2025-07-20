@@ -1,81 +1,23 @@
-
-/* Menu Open Animation (Optional but polished) */
-.nav-center.active {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: #181515;
-  position: absolute;
-  top: 70px;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-  z-index: 999;
-  border-top: 1px solid #333;
-}
-
-.nav-center.active .nav-links-container {
-  flex-direction: column;
-  gap: 16px;
-}
-
-/* Hide nav links by default on mobile */
-@media (max-width: 768px) {
-  .nav-center {
-    display: none;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  .nav-right {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-  }
-
-  .expert-button {
-    padding: 8px 14px;
-    font-size: 13px;
-  }
-
-  .nav-logo {
-    width: 60px;
-    height: auto;
-  }
-}
-
-
-/* Base Navbar */
+/* Navbar Base */
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 20px 60px;
-  flex-wrap: wrap;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
-  background: transparent;
+  z-index: 100;
+  background-color: transparent;
 }
 
-/* Left Section */
-.nav-left {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.nav-logo {
-  left: 20%;
+/* Left */
+.nav-left .nav-logo {
   width: 100px;
   height: auto;
 }
 
-/* Center Nav Links */
+/* Center Nav Links (desktop only) */
 .nav-center {
   flex: 1;
   display: flex;
@@ -83,21 +25,20 @@
 }
 
 .nav-links-container {
-  background-color: rgba(255, 255, 255, 0.07);
-  padding: 10px 32px;
-  border-radius: 999px;
   display: flex;
   gap: 36px;
-  align-items: center;
+  padding: 10px 32px;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 999px;
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .nav-links-container a {
   color: white;
-  text-decoration: none;
   font-weight: 500;
   font-size: 15px;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
@@ -105,7 +46,7 @@
   color: #ff6a13;
 }
 
-/* Right Side Button */
+/* Right */
 .nav-right {
   display: flex;
   align-items: center;
@@ -126,78 +67,6 @@
 
 .expert-button:hover {
   background-color: #e85a00;
-}
-
-/* Responsive: Tablet & Mobile */
-@media screen and (max-width: 1024px) {
-  .navbar {
-    padding: 16px 30px;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    background: transparent;
-  }
-
-  .nav-center {
-    width: 100%;
-    justify-content: center;
-    margin-top: 12px;
-  }
-
-  .nav-links-container {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
-    padding: 12px 20px;
-  }
-
-  .nav-right {
-    margin-top: 12px;
-    width: 100%;
-    justify-content: center;
-  }
-}
-
-/* Mobile Specific */
-@media screen and (max-width: 768px) {
-  .nav-links-container {
-    flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.07);
-    padding: 12px 16px;
-    gap: 12px;
-    width: 100%;
-  }
-
-  .nav-links-container a {
-    font-size: 16px;
-  }
-
-  .expert-button {
-    width: 100%;
-    padding: 12px;
-    font-size: 14px;
-  }
-
-  .nav-right {
-    flex-direction: column;
-    gap: 12px;
-    width: 100%;
-  }
-
-  .nav-center {
-    order: 2;
-    width: 100%;
-  }
-
-  .nav-right {
-    order: 3;
-  }
-
-  .nav-left {
-    order: 1;
-    width: 100%;
-    justify-content: space-between;
-  }
 }
 
 /* Hamburger Animation */
@@ -269,15 +138,4 @@
   cursor: pointer;
   width: 100%;
   margin-top: 20px;
-}
-
-@media (max-width: 768px) {
-  .nav-center,
-  .nav-right {
-    display: none;
-  }
-
-  .hamburger {
-    display: flex;
-  }
 }
