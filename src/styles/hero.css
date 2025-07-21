@@ -10,6 +10,7 @@
   color: #fff;
   overflow: hidden;
   min-height: 700px;
+  flex-wrap: wrap;
 }
 
 /* Left Side */
@@ -50,20 +51,21 @@
 
 .curve-text {
   position: absolute;
-  top: 65%;
+  top: 72%;
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
   font-weight: 800;
   font-size: 20px;
   z-index: 3;
+  white-space: nowrap;
 }
-/* Shapes */
+
 /* Shapes */
 .hero-shapes .triangle1 {
   position: absolute;
-  top: 63%;      /* Moved down */
-  left: 45%;    /* Moved slightly right */
+  top: 63%;
+  left: 45%;
   transform: translate(-50%, -50%);
   width: 300px;
   height: auto;
@@ -72,9 +74,8 @@
 
 .hero-shapes .triangle2 {
   position: absolute;
-  top: 44%;      /* Moved further down */
-  /* right: 80px; */
-  left: 53%;    /* Moved to right to align with Figma */
+  top: 44%;
+  left: 53%;
   width: 300px;
   height: auto;
   z-index: 1;
@@ -82,36 +83,102 @@
 
 .hero-shapes .round-right {
   position: absolute;
-  top: 320px;      /* Lowered to show behind triangle2 */
-  right: -8px;    /* Pulled slightly off-screen for curve look */
+  top: 320px;
+  right: -8px;
   z-index: 0;
 }
 
 .hero-shapes .round-left {
   position: absolute;
   bottom: 0;
-  left: -20px;     /* Tucked into corner like Figma */
+  left: -20px;
   z-index: 1;
 }
 
 .hero-shapes .curve-bottom {
   position: absolute;
-  bottom: -470px; /* Curve moved up to appear like Figma */
-  left: -0px;
+  bottom: -470px;
+  left: 0;
   z-index: 2;
 }
-/* Icons */
+
+/* Social Icons */
 .hero-icons {
-  position: absolute;
+  position: fixed;
   top: 140px;
   right: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  z-index: 3;
+  z-index: 4;
+  animation: fadeInRight 0.8s ease forwards;
 }
 
 .hero-icons a img {
   width: 24px;
   height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.hero-icons a img:hover {
+  transform: scale(1.2);
+}
+
+/* Animation */
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 60px 20px;
+    align-items: center;
+  }
+
+  .hero-left {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 32px;
+  }
+
+  .hero-left p {
+    font-size: 14px;
+  }
+
+  .curve-text {
+    font-size: 16px;
+    top: 78%;
+  }
+
+  .hero-icons {
+    right: 10px;
+    top: 100px;
+  }
+
+  .hero-shapes .triangle1,
+  .hero-shapes .triangle2 {
+    width: 160px;
+  }
+
+  .hero-shapes .curve-bottom {
+    bottom: -300px;
+    width: 100%;
+  }
+
+  .hero-shapes .round-left,
+  .hero-shapes .round-right {
+    width: 80px !important;
+  }
 }
