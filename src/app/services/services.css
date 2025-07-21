@@ -401,6 +401,29 @@ body {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
 
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 0 60px;
+  margin-top: 40px;
+  justify-items: center;
+}
+
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+}
+
 /* next */
 .about-us {
   position: relative;
@@ -435,6 +458,21 @@ body {
   font-size: 16px;
   line-height: 1.8;
   margin-bottom: 14px;
+}
+@media (max-width: 768px) {
+  .about-us {
+    padding: 0 20px;
+    height: auto;
+  }
+
+  .about-us .content h2 {
+    font-size: 26px;
+  }
+
+  .about-us .content p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
 }
 
 /* next */
