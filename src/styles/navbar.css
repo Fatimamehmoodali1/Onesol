@@ -203,7 +203,7 @@
 .hamburger {
   display: none;
   flex-direction: column;
-  justify-content: right;
+  justify-content: space-between;
   width: 24px;
   height: 18px;
   cursor: pointer;
