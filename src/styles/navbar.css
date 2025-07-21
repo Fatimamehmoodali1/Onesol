@@ -270,7 +270,7 @@
   margin-top: 20px;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .nav-center,
   .nav-right {
     display: none;
@@ -279,9 +279,9 @@
   .hamburger {
     display: flex;
   }
-} */
+}
 
-@media(max-width: 768px)  {
+/* @media(max-width: 768px)  {
   .nav-right{
     width: 100%;
     justify-content: space-between;
@@ -290,5 +290,5 @@
   .hamburger{
     margin-left: auto
   }
-}
+} */
 
