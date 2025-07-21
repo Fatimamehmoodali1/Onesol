@@ -475,6 +475,11 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .service-card p {
+    font-size: 13px;
+  }
+}
 /* next */
 .projects {
   background-color: #fff; /* Tailwind gray-100 */
