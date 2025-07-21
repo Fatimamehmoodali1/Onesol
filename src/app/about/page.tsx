@@ -2,16 +2,13 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import './about.css';
-import Navbar from '../components/Navbar';
 
 
 export default function AboutPage() {
   return (
     <div>
       {/* Navbar */}
-      <Navbar /> 
-      
-      {/*<nav className="navbar">
+      <nav className="navbar">
         <div className="logo">
           <img src="/images/logo.png" alt="" />
         </div>
@@ -23,7 +20,7 @@ export default function AboutPage() {
           <li><a href="blog">Blog</a></li>
         </ul>
         <button className="nav-button">Contact Us</button>
-      </nav> */} 
+      </nav> 
 
       {/* Hero Section */}
       <section className="hero">
