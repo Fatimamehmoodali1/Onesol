@@ -834,6 +834,90 @@ body {
   width: 25px;
 }
 
+@media (max-width: 1024px) {
+  .experience-heading {
+    font-size: 80px;
+  }
+
+  .info-header {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 40px 20px;
+  }
+
+  .experience-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .experience-left,
+  .experience-right {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .experience-heading {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .cta-button {
+    display: block;
+    margin: 30px auto 0 auto;
+  }
+
+  .info-header {
+    padding-right: 0;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .info-header h2 {
+    font-size: 20px;
+  }
+
+  .accordion-title {
+    font-size: 11px;
+  }
+
+  .exp-socialbar {
+    display: none; /* Hide on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-heading {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+  .cta-button {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+
+  .info-header h2 {
+    font-size: 18px;
+  }
+
+  .info-description {
+    font-size: 9px;
+  }
+
+  .accordion-title {
+    font-size: 10px;
+  }
+
+  .plus-icon {
+    font-size: 18px;
+  }
+}
 
 /* next */
 .footer {
