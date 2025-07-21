@@ -7,82 +7,45 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    // <nav className="navbar">
-    //   <div className="nav-left">
-    //     <img src="/images/logo.png" alt="Logo" width={50} height={50} className="nav-logo" />
-    //   </div>
+    <nav className="navbar">
+      <div className="nav-left">
+        <img src="/images/logo.png" alt="Logo" width={50} height={50} className="nav-logo" />
+      </div>
 
-    //   {/* Hamburger */}
-    //   <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
-    //     <span className="bar"></span>
-    //     <span className="bar"></span>
-    //     <span className="bar"></span>
-    //   </div>
+      {/* Hamburger */}
+      <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
 
-    //   {/* Mobile Nav */}
-    //   <div className={`mobile-nav ${menuOpen ? 'show' : ''}`}>
-    //     <a href="home">Home</a>
-    //     <a href="about">About</a>
-    //     <a href="ourwork">Our Work</a>
-    //     <a href="services">Services</a>
-    //     <a href="blog">Blog</a>
-    //     <button className="expert-button">Speak to an Expert</button>
-    //   </div>
+      {/* Mobile Nav */}
+      <div className={`mobile-nav ${menuOpen ? 'show' : ''}`}>
+        <a href="home">Home</a>
+        <a href="about">About</a>
+        <a href="ourwork">Our Work</a>
+        <a href="services">Services</a>
+        <a href="blog">Blog</a>
+        <button className="expert-button">Speak to an Expert</button>
+      </div>
 
-    //   {/* Desktop Nav */}
-    //   <div className="nav-center">
-    //     <div className="nav-links-container">
-    //       <a href="home">Home</a>
-    //       <a href="about">About</a>
-    //       <a href="ourwork">Our Work</a>
-    //       <a href="services">Services</a>
-    //       <a href="blog">Blog</a>
-    //     </div>
-    //   </div>
+      {/* Desktop Nav */}
+      <div className="nav-center">
+        <div className="nav-links-container">
+          <a href="home">Home</a>
+          <a href="about">About</a>
+          <a href="ourwork">Our Work</a>
+          <a href="services">Services</a>
+          <a href="blog">Blog</a>
+        </div>
+      </div>
 
-    //   <div className="nav-right">
-    //     <button className="expert-button">Speak to an Expert</button>
-    //   </div>
-    // </nav>
-    // Inside return:
-<nav className="navbar">
-  <div className="nav-left">
-    <img src="/images/logo.png" alt="Logo" width={50} height={50} className="nav-logo" />
-  </div>
+      <div className="nav-right">
+        <button className="expert-button">Speak to an Expert</button>
+      </div>
+    </nav>
+    Inside return:
 
-  {/* Desktop Nav Center */}
-  <div className="nav-center">
-    <div className="nav-links-container">
-      <a href="home">Home</a>
-      <a href="about">About</a>
-      <a href="ourwork">Our Work</a>
-      <a href="services">Services</a>
-      <a href="blog">Blog</a>
-    </div>
-  </div>
-
-  {/* Right Section: Hamburger & Button */}
-  <div className="nav-right">
-    <button className="expert-button">Speak to an Expert</button>
-
-    {/* Hamburger Icon - Right Aligned */}
-    <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
-      <span className="bar"></span>
-      <span className="bar"></span>
-      <span className="bar"></span>
-    </div>
-  </div>
-
-  {/* Mobile Menu Slide-In */}
-  <div className={`mobile-nav ${menuOpen ? 'show' : ''}`}>
-    <a href="home">Home</a>
-    <a href="about">About</a>
-    <a href="ourwork">Our Work</a>
-    <a href="services">Services</a>
-    <a href="blog">Blog</a>
-    <button className="expert-button">Speak to an Expert</button>
-  </div>
-</nav>
   );
 }
 
