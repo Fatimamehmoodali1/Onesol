@@ -44,8 +44,5 @@ export default function Navbar() {
         <button className="expert-button">Speak to an Expert</button>
       </div>
     </nav>
-    Inside return:
-
   );
 }
-
