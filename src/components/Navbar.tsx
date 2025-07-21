@@ -21,7 +21,7 @@ export default function Navbar() {
 
       {/* Mobile Nav */}
       <div className={`mobile-nav ${menuOpen ? 'show' : ''}`}>
-        <a href="home">Home</a>
+        <a href="/">Home</a>
         <a href="about">About</a>
         <a href="ourwork">Our Work</a>
         <a href="services">Services</a>
