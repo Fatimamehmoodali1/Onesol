@@ -11,7 +11,7 @@ export default function Blog() {
           <img src="/images/logo.png" alt="Logo" /> 
         </div> 
         <ul className="nav-links"> 
-          <li><a href="#">Home</a></li> 
+          <li><a href="/">Home</a></li> 
           <li><a href="about">About</a></li> 
           <li><a href="ourwork">Our Work</a></li> 
           <li><a href="services">Services</a></li> 
