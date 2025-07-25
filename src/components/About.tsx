@@ -16,12 +16,12 @@ const About = () => {
         </p>
         <p>
           At ONESOL, we believe in turning bold visions into impactful experiences. Our team of passionate creatives,
-          strategists, and tech innovators work together to craft solutions that don’t just meet industry standards —
+          strategists, and tech innovators work together to craft solutions that don&apos;t just meet industry standards —
           they set new ones.
         </p>
         <br />
         <p>
-          Whether it’s designing a compelling brand identity, developing intuitive digital products, or implementing
+          Whether it&apos;s designing a compelling brand identity, developing intuitive digital products, or implementing
           cutting-edge marketing strategies, we approach every project with a commitment to excellence and a focus on
           measurable results.< br/>
           We thrive on challenges and believe every brand has the potential to evolve beyond its limits. By combining

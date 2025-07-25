@@ -3,6 +3,7 @@ import React from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import './about.css';
 
+
 export default function AboutPage() {
   return (
     <div>
@@ -12,14 +13,14 @@ export default function AboutPage() {
           <img src="/images/logo.png" alt="" />
         </div>
         <ul className="nav-links">
-          <li><a href="#">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="about">About</a></li>
           <li><a href="ourwork">Our Work</a></li>
           <li><a href="services">Services</a></li>
           <li><a href="blog">Blog</a></li>
         </ul>
         <button className="nav-button">Contact Us</button>
-      </nav>
+      </nav> 
 
       {/* Hero Section */}
       <section className="hero">
@@ -113,11 +114,11 @@ export default function AboutPage() {
         <div className="projects-header">
           <h4 className="projects-label">PROJECTS</h4>
           <h2 className="projects-title">
-            Our Latest Incredible <br /> Client's Projects
+            Our Latest Incredible <br /> Client&apos;s Projects
           </h2>
           <p className="projects-description">
             There are many variations of passages of available but majority have suffered alteration
-            in some form, by humour or randomised words which don't look even slightly believable.
+            in some form, by humour or randomised words which don&apos;t look even slightly believable.
           </p>
          <div className="projects-arrows">
           <button className="arrow-btn light">&#8594;</button>
@@ -155,7 +156,7 @@ export default function AboutPage() {
             {[
              { image: 'team-1.png', name: 'Names' },
              { image: 'team-2.png', name: 'Names' },
-             { image: 'team-3.png', name: 'Names' },
+             { image: 'team-3 3.jpeg', name: 'Names' },
             ].map((member, i) => (
          <div className="team-card" key={i}>
            <img src={`/images/${member.image}`} alt={member.name} className="team-img" />
@@ -238,7 +239,7 @@ export default function AboutPage() {
         </div>
         <p className="info-description">
           we know the pain of traditional, development, trust us. At Onesol
-          we're up to 10x faster than your current agency. Period.
+          we&apos;re up to 10x faster than your current agency. Period.
         </p>
 
         <div className="accordion">
@@ -263,7 +264,7 @@ export default function AboutPage() {
     <section className="cta-section">
       <div className="cta-content">
         <div className="cta-texts">
-          <p className="cta-subtitle">We're here to help to grow your business.</p>
+          <p className="cta-subtitle">We&apos;re here to help to grow your business.</p>
           <h2 className="cta-title">Looking for the Best IT Business Solutions?</h2>
         </div>
         <button className="cta-button">LEARN MORE</button>

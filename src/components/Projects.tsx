@@ -11,7 +11,7 @@ const Projects = () => {
             Improve & Enhance Our Tech <br /> Projects
           </h2>
           <p className="description">
-            There are many variations of passages of available text but majority have suffered alteration in some form, by humour or randomised words which don't look even slightly believable.
+            There are many variations of passages of available text but majority have suffered alteration in some form, by humour or randomised words which don&apos;t look even slightly believable.
           </p>
         </section>
 

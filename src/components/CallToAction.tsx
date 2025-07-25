@@ -8,7 +8,7 @@ export default function CallToAction() {
     <section className="cta-section">
       <div className="cta-content">
         <div className="cta-texts">
-          <p className="cta-subtitle">We're here to help to grow your business.</p>
+          <p className="cta-subtitle">We&apos; re here to help to grow your business.</p>
           <h2 className="cta-title">Looking for the Best IT Business Solutions?</h2>
         </div>
         <button className="cta-button">LEARN MORE</button>

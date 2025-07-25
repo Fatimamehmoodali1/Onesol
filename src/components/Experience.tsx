@@ -47,7 +47,7 @@ const Experience = () => { return (
         </div>
         <p className="info-description">
           we know the pain of traditional, development, trust us. At Onesol
-          we're up to 10x faster than your current agency. Period.
+          we&apos; re up to 10x faster than your current agency. Period.
         </p>
 
         <div className="accordion">

@@ -12,7 +12,7 @@ export default function Services () {
           <img src="/images/logo.png" alt="" />
         </div>
         <ul className="nav-links">
-          <li><a href="#">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="about">About</a></li>
           <li><a href="ourwork">Our Work</a></li>
           <li><a href="services">Services</a></li>
@@ -69,7 +69,7 @@ export default function Services () {
        <div className="why-choose-us">
   <div className="text-section">
     <p className="subtitle">why choose us</p>
-    <h2 className="title">What’s Make Us Different</h2>
+    <h2 className="title">What&apos;s Make Us Different</h2>
 
     <div className="feature">
       <div className="line-arrow"></div>
@@ -143,7 +143,7 @@ export default function Services () {
         </p>
         <br />
         <p>
-          Whether it’s designing a compelling brand identity, developing intuitive digital products, or implementing
+          Whether it&apos;s designing a compelling brand identity, developing intuitive digital products, or implementing
           cutting-edge marketing strategies, we approach every project with a commitment to excellence and a focus on
           measurable results.< br/>
           We thrive on challenges and believe every brand has the potential to evolve beyond its limits. By combining
@@ -163,7 +163,7 @@ export default function Services () {
             Improve & Enhance Our Tech <br /> Projects
           </h2>
           <p className="description">
-            There are many variations of passages of available text but majority have suffered alteration in some form, by humour or randomised words which don't look even slightly believable.
+            There are many variations of passages of available text but majority have suffered alteration in some form, by humour or randomised words which don&apos;t look even slightly believable.
           </p>
         </section>
 
@@ -228,7 +228,7 @@ export default function Services () {
         </div>
         <p className="info-description">
           we know the pain of traditional, development, trust us. At Onesol
-          we're up to 10x faster than your current agency. Period.
+          we&apos;re up to 10x faster than your current agency. Period.
         </p>
 
         <div className="accordion">
@@ -253,7 +253,7 @@ export default function Services () {
     <section className="cta-section">
       <div className="cta-content">
         <div className="cta-texts">
-          <p className="cta-subtitle">We're here to help to grow your business.</p>
+          <p className="cta-subtitle">We&apos;re here to help to grow your business.</p>
           <h2 className="cta-title">Looking for the Best IT Business Solutions?</h2>
         </div>
         <button className="cta-button">LEARN MORE</button>

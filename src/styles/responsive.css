@@ -96,7 +96,11 @@
     font-size: 22px;
   }
 
+<<<<<<< HEAD
   /* .expert-button {
+=======
+/*   .expert-button {
+>>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
     width: 100%;
   }
 
@@ -108,6 +112,22 @@
 @media (max-width: 768px) {
   .nav-center {
     display: none;
+<<<<<<< HEAD
+  }
+
+  .nav-right {
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  .expert-button {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+=======
+>>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
   }
 
   .nav-right {

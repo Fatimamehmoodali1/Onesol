@@ -9,9 +9,15 @@
   background-color: #181515;
   color: #fff;
   overflow: hidden;
+<<<<<<< HEAD
   height: 100vh;
   z-index: 1;
 } 
+=======
+  min-height: 700px;
+  flex-wrap: wrap;
+}
+>>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
 
 /* Left Side */
 .hero-left {
@@ -46,7 +52,12 @@
   border: none;
   border-radius: 6px;
   color: #fff;
+<<<<<<< HEAD
   font-weight: 900;
+=======
+  font-weight: 600;
+  font-family: karla, sans-serif;
+>>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
   cursor: pointer;
 }  */
 
@@ -79,13 +90,14 @@
 
 .curve-text {
   position: absolute;
-  top: 65%;
+  top: 72%;
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
   font-weight: 800;
   font-size: 28px;
   z-index: 3;
+<<<<<<< HEAD
 } 
 /* Shapes */
 /* Shapes */
@@ -93,6 +105,16 @@
   position: absolute;
   top: 68%;       
   left: 50%;      
+=======
+  white-space: nowrap;
+}
+
+/* Shapes */
+.hero-shapes .triangle1 {
+  position: absolute;
+  top: 63%;
+  left: 45%;
+>>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
   transform: translate(-50%, -50%);
   width: 450px;
   height: auto;
@@ -101,9 +123,15 @@
 
 .hero-shapes .triangle2 {
   position: absolute;
+<<<<<<< HEAD
   top: 39%;      /* Moved further down */
   left: 60%;     /*Moved to right to align with Figma */
   width: 450px;
+=======
+  top: 44%;
+  left: 53%;
+  width: 300px;
+>>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
   height: auto;
   z-index: 1;
 } 
@@ -112,8 +140,13 @@
   width: 330px;
   height: auto;
   position: absolute;
+<<<<<<< HEAD
   top: 360px;      /* Lowered to show behind triangle2 */
   right: 0px;     /*Pulled slightly off-screen for curve look */
+=======
+  top: 320px;
+  right: -8px;
+>>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
   z-index: 0;
 } 
 
@@ -122,12 +155,17 @@
   height: auto;
   position: absolute;
   bottom: 0;
+<<<<<<< HEAD
   left: -0px;     /* Tucked into corner like Figma */
+=======
+  left: -20px;
+>>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
   z-index: 1;
   top: 60%
 } 
 
 .hero-shapes .curve-bottom {
+<<<<<<< HEAD
   position: absolute; 
   bottom: -650px; 
   left: -0px;
@@ -142,11 +180,30 @@
   flex-direction: column;
   gap: 30px;
   z-index: 3;
+=======
+  position: absolute;
+  bottom: -470px;
+  left: 0;
+  z-index: 2;
+}
+
+/* Social Icons */
+.hero-icons {
+  position: fixed;
+  top: 140px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 4;
+  animation: fadeInRight 0.8s ease forwards;
+>>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
 }
 
 .hero-icons a img {
   width: 24px;
   height: 24px;
+<<<<<<< HEAD
 } 
 
 .hero-bottom-right-shapes {
@@ -176,3 +233,70 @@
 
 
 
+=======
+  transition: transform 0.3s ease;
+}
+
+.hero-icons a img:hover {
+  transform: scale(1.2);
+}
+
+/* Animation */
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 60px 20px;
+    align-items: center;
+  }
+
+  .hero-left {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 32px;
+  }
+
+  .hero-left p {
+    font-size: 14px;
+  }
+
+  .curve-text {
+    font-size: 16px;
+    top: 78%;
+  }
+
+  .hero-icons {
+    right: 10px;
+    top: 100px;
+  }
+
+  .hero-shapes .triangle1,
+  .hero-shapes .triangle2 {
+    width: 160px;
+  }
+
+  .hero-shapes .curve-bottom {
+    bottom: -300px;
+    width: 100%;
+  }
+
+  .hero-shapes .round-left,
+  .hero-shapes .round-right {
+    width: 80px !important;
+  }
+}
+>>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2

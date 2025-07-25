@@ -401,6 +401,29 @@ body {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
 
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 0 60px;
+  margin-top: 40px;
+  justify-items: center;
+}
+
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+}
+
 /* next */
 .about-us {
   position: relative;
@@ -508,7 +531,27 @@ body {
     margin-bottom: 10px;
   }
 }
+@media (max-width: 768px) {
+  .about-us {
+    padding: 0 20px;
+    height: auto;
+  }
 
+  .about-us .content h2 {
+    font-size: 26px;
+  }
+
+  .about-us .content p {
+    font-size: 11px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 500px) {
+  .service-card p {
+    font-size: 13px;
+  }
+}
 /* next */
 .projects {
   background-color: #fff; /* Tailwind gray-100 */
@@ -906,6 +949,90 @@ body {
   width: 25px;
 }
 
+@media (max-width: 1024px) {
+  .experience-heading {
+    font-size: 80px;
+  }
+
+  .info-header {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 40px 20px;
+  }
+
+  .experience-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .experience-left,
+  .experience-right {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .experience-heading {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .cta-button {
+    display: block;
+    margin: 30px auto 0 auto;
+  }
+
+  .info-header {
+    padding-right: 0;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .info-header h2 {
+    font-size: 20px;
+  }
+
+  .accordion-title {
+    font-size: 11px;
+  }
+
+  .exp-socialbar {
+    display: none; /* Hide on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-heading {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+  .cta-button {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+
+  .info-header h2 {
+    font-size: 18px;
+  }
+
+  .info-description {
+    font-size: 9px;
+  }
+
+  .accordion-title {
+    font-size: 10px;
+  }
+
+  .plus-icon {
+    font-size: 18px;
+  }
+}
 
 /* next */
 .footer {

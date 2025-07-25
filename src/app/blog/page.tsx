@@ -2,7 +2,23 @@
 
 import React from "react"; import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa"; import './blog.css';
 
-export default function Blog() { return ( <div> {/* Navbar */} <nav className="navbar"> <div className="logo"> <img src="/images/logo.png" alt="Logo" /> </div> <ul className="nav-links"> <li><a href="#">Home</a></li> <li><a href="about">About</a></li> <li><a href="ourwork">Our Work</a></li> <li><a href="services">Services</a></li> <li><a href="blog">Blog</a></li> </ul> <button className="nav-button">Contact Us</button> </nav>
+export default function Blog() { 
+  return ( 
+    <div> 
+      {/* Navbar */} 
+      <nav className="navbar"> 
+        <div className="logo"> 
+          <img src="/images/logo.png" alt="Logo" /> 
+        </div> 
+        <ul className="nav-links"> 
+          <li><a href="/">Home</a></li> 
+          <li><a href="about">About</a></li> 
+          <li><a href="ourwork">Our Work</a></li> 
+          <li><a href="services">Services</a></li> 
+          <li><a href="blog">Blog</a></li> 
+        </ul> 
+        <button className="nav-button">Contact Us</button>
+      </nav>
 
 {/* Hero Section */}
   <section className="hero">
@@ -116,7 +132,7 @@ export default function Blog() { return ( <div> {/* Navbar */} <nav className="n
           </div>
           <p className="info-description">
             we know the pain of traditional, development, trust us. At Onesol
-            we're up to 10x faster than your current agency. Period.
+            we&apos;re up to 10x faster than your current agency. Period.
           </p>
 
           <div className="accordion">
@@ -142,7 +158,7 @@ export default function Blog() { return ( <div> {/* Navbar */} <nav className="n
   <section className="cta-section">
     <div className="cta-content">
       <div className="cta-texts">
-        <p className="cta-subtitle">We're here to help to grow your business.</p>
+        <p className="cta-subtitle">We&apos;re here to help to grow your business.</p>
         <h2 className="cta-title">Looking for the Best IT Business Solutions?</h2>
       </div>
       <button className="cta-button">LEARN MORE</button>
