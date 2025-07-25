@@ -42,7 +42,7 @@ import '../styles/responsive.css';
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-// <<<<<<< HEAD
+
     <nav className="navbar-wrapper">
       <div><img src="/images/logo.png" alt="Logo" className="nav-logo" /></div>
       <img src="/images/logo.png" alt="Logo" className="nav-logo" />
@@ -104,7 +104,4 @@ export default function Navbar() {
  }
 
 
-// mobile responsive 
 
-// =======
-// >>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
