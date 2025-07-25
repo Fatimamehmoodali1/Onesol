@@ -18,7 +18,7 @@ import '../styles/whychoose.css';
             <img src='/images/Ellipse 6.png' className='circle-top-left'/>
          </div>
 
-const WhyChooseSection = () => {
+{/* const WhyChooseSection = () => {
   return (
     <section className="why-choose-section">
       <div className="container">
@@ -28,7 +28,7 @@ const WhyChooseSection = () => {
           At Onesol, we combine creativity, technology, and strategy to deliver impactful digital solutions
           that grow your business. We&apos;re more than a service provider—we&apos;re your reliable partner
           dedicated to your success.
-        </p>
+        </p> */}
 
         <div className="why-cards">
            {/* Card 1 */}
@@ -141,5 +141,5 @@ export default WhyChooseSection;
 // };
 
 // export default WhyChooseSection;
-=======
->>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
+// =======
+// >>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
