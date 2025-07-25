@@ -2,7 +2,7 @@
 import React from 'react';
 import '../styles/whychoose.css';
 
-<<<<<<< HEAD
+
  const WhyChooseSection = () => {
     return (
      <section className="why-choose-section">
@@ -17,7 +17,7 @@ import '../styles/whychoose.css';
          <div className='circle'>
             <img src='/images/Ellipse 6.png' className='circle-top-left'/>
          </div>
-=======
+
 const WhyChooseSection = () => {
   return (
     <section className="why-choose-section">
@@ -29,7 +29,6 @@ const WhyChooseSection = () => {
           that grow your business. We&apos;re more than a service provider—we&apos;re your reliable partner
           dedicated to your success.
         </p>
->>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
 
         <div className="why-cards">
            {/* Card 1 */}
@@ -57,7 +56,7 @@ const WhyChooseSection = () => {
           {/* Card 3 */}
            <div className="why-card">
             <div className="card-image">
-<<<<<<< HEAD
+
                <img src="/images/choose-3.jpeg" alt="Service 3" />
              </div>
              <div className="icon-wrapper">
@@ -66,7 +65,7 @@ const WhyChooseSection = () => {
            <p className="card-text">Help your business grow worldwide</p>
          </div>
        </div>
-=======
+
               <img src="/images/choose-3.jpeg" alt="Service 3" />
             </div>
             <div className="icon-wrapper">
@@ -75,14 +74,14 @@ const WhyChooseSection = () => {
             <p className="card-text">Help your business grow worldwide</p>
           </div>
         </div>
->>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
+
       </div>
     </section>
   );
 };
 
 export default WhyChooseSection;
-<<<<<<< HEAD
+
 
 // 'use client';
 // import React from 'react';
