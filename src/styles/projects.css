@@ -2,7 +2,7 @@
 
 .projects {
   background-color: #E2E2E2;
-  font-family: karla, sans-serif;
+  font-family: Source Serif Pro;
 }
 
 .projects-inner {
@@ -20,26 +20,29 @@
 
 .project-section .subheading {
   font-size: 20px;
-  color: #f28c28;
-  font-weight: 600;
+  color: #F58F20;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .project-section .main-heading {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 38px;
+  font-weight: 900;
+  font-style: bold;
   line-height: 1.3;
-  color: #1f2937;
+  color: black;
   margin-bottom: 15px;
 }
 
 .project-section .description {
-  max-width: 700px;
-  font-size: 16px;
+  max-width: 800px;
+  font-size: 19px;
   line-height: 1.6;
+  letter-spacing: 1px;
   color: #000;
+  margin-left: 250px;
 }
 
 /* 4 thumbnail cards */
@@ -75,7 +78,7 @@
   left: 16px;
   font: 600 15px 'Karla', sans-serif;
   color: #fff;
-  background: rgba(0, 0, 0, 0.5);
+  background: #231F20;
   padding: 6px 10px;
   border-radius: 4px;
 }
@@ -86,25 +89,32 @@
 }
 
 /* brand strip */
-.brand-strip {
+.brands-bar {
   background: #000;
-  padding: 34px 0;
+  padding: 36px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
 }
 
-.brands {
-  max-width: 1280px;
-  margin: 0 auto;
+.brand-logos {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
-  align-items: center;
   justify-content: center;
+  gap: 40px;
+  max-width: 1700px;
 }
 
-.brands img {
-  height: 34px;
-  width: auto;
-  filter: invert(1);
+.brand-logos img {
+  max-height: 50px;
+  object-fit: contain;
+  filter: brightness(1.2);
+  transition: transform 0.3s ease;
+}
+
+.brand-logos img:hover {
+  transform: scale(1.1);
 }
 
 .spacer {

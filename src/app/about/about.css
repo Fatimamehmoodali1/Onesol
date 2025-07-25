@@ -96,7 +96,8 @@ body {
   height: 150%;
   top: -25%;
   left: -25%;
-  background: rgba(255, 165, 0, 0.5); 
+  /* background: rgba(255, 165, 0, 0.5);  */
+  background: #F48220A8;
   transform: rotate(10deg);
   z-index: 1;
 }

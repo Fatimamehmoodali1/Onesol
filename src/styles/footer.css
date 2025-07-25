@@ -51,23 +51,26 @@
 }
 
 .footer-logo {
-  width: 40px;
+  width: 100px;
   margin-bottom: 10px;
 }
 
 .footer-column h2 {
-  font-size: 20px;
+  margin-top: -35px;
+  font-size: 50px;
   margin-bottom: 12px;
 }
 
 .footer-column h3 {
-  font-size: 18px;
+  margin-top: 60px;
+  font-size: 20px;
   margin-bottom: 12px;
   font-weight: 600;
 }
 
 .footer-column p,
 .footer-column li {
+  margin-top: 30px;
   font-size: 14px;
   color: #ccc;
   line-height: 1.7;
@@ -79,12 +82,12 @@
 .footer-social-icons {
   margin-top: 14px;
   display: flex;
-  gap: 12px;
+  gap: 15px;
 }
 
 .footer-social-icons a {
   color: white;
-  font-size: 16px;
+  font-size: 28px;
   transition: 0.3s;
 }
 
@@ -121,7 +124,7 @@
 
 /* Appointment */
 .appointment-button {
-  margin-top: 12px;
+  margin-top: -39px;
   border: 1px solid #f6ad01;
   background: transparent;
   color: #f6ad01;

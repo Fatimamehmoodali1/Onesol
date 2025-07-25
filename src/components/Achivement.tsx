@@ -18,7 +18,7 @@ const Achivement = () => {
         <button className="cta-btn">GeT Started →</button>
       </div>
 
-      <div className="achieve-right">
+      {/* <div className="achieve-right">
         <div className="achieve-box">
           <div className="circle-hover">
             <img src="/images/icon2.png" alt="Projects Completed" />
@@ -46,7 +46,29 @@ const Achivement = () => {
           </div>
           <span>80+ Award winning</span>
         </div>
-      </div>
+      </div> */}
+  <div className="achievements-grid">
+    <div className="achievement-box">
+      <img src="/images/icon2.png" alt="Projects Completed" />
+      <h4>8,550</h4>
+      <p>Projects Completed</p>
+    </div>
+    <div className="achievement-box highlight">
+      <img src="/images/icon1.png" alt="Satisfied Clients" />
+      <h4>3,850</h4>
+      <p>Satisfied Clients</p>
+    </div>
+    <div className="achievement-box">
+      <img src="/images/icon3.png" alt="Team Lead" />
+      <h4>90+</h4>
+      <p>Team Lead</p>
+    </div>
+    <div className="achievement-box">
+      <img src="/images/icon4.png" alt="Award Winning" />
+      <h4>80+</h4>
+      <p>Award Winning</p>
+    </div>
+  </div>
     </section>
   );
 };

@@ -16,8 +16,8 @@ const Testimonials = () => {
             </div>
             <div className="stars">⭐⭐⭐⭐⭐</div>
             <p>
-              “Working with ONESOL was a game changer for us. Their team understood our vision
-              perfectly and delivered a stunning digital solution that boosted our online presence
+              ⭐“Working with ONESOL was a game changer for us.<br/> Their team understood our vision
+              perfectly and delivered <br/>a stunning digital solution that boosted our <br/> online presence
               significantly.”
             </p>
             <p className="client-name">– <strong>Sarah A., Marketing Director</strong></p>
@@ -30,8 +30,8 @@ const Testimonials = () => {
             </div>
             <div className="stars">⭐⭐⭐⭐⭐</div>
             <p>
-              “From strategy to execution, ONESOL exceeded our expectations. Their creativity,
-              professionalism, and support helped us reach new heights.”
+              ⭐“From strategy to execution, ONESOL exceeded our <br/> expectations. Their creativity,
+              professionalism, and <br/> support helped us reach new heights.”
             </p>
             <p className="client-name">– <strong>Ahmed K., CEO</strong></p>
           </div>

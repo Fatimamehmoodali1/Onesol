@@ -12,7 +12,7 @@ const Footer = () => {
 
       <div className="footer-content">
         <div className="footer-column">
-          <img src="/images/logo.png" alt="Logo" className="footer-logo" />
+          <img src="/images/Group.png" alt="Logo" className="footer-logo" />
           <h2>Onesol</h2>
           <p>
             With years of hands-on expertise, ONESOL transforms ambitious ideas
@@ -48,6 +48,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-column">
+           <button className="appointment-button">BOOK AN APPOINTMENT</button>
           <h3>Contact</h3>
           <p>+971 50 9611550</p>
           <p>www.onesol.ae</p>
@@ -55,7 +56,6 @@ const Footer = () => {
             Business Center, Sharjah Publishing City Free Zone, Sharjah,
             United Arab Emirates
           </p>
-          <button className="appointment-button">BOOK AN APPOINTMENT</button>
         </div>
       </div>
 

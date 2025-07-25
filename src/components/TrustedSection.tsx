@@ -8,9 +8,9 @@ export default function TrustedSection() {
       {/* Top Background Section */}
       <section className="trusted-section">
         <div className="trusted-content">
-          <h2>Trusted by Global <br /> & Local Brands</h2>
+          <h2>🤝 Trusted  by  Global <br /> &  Local  Brands</h2>
           <p>
-            ONESOL is trusted by forward-thinking companies across UAE, Pakistan, and beyond to create impact at every touchpoint.
+            ONESOL is trusted by forward-thinking companies <br /> across UAE, Pakistan, and beyond to create impact <br />at every touchpoint.
           </p>
           <div className="trusted-buttons">
             <button>Bold brands</button>
@@ -26,7 +26,7 @@ export default function TrustedSection() {
         <div className="container">
           <div className="cards-container">
             <div className="service-card">
-              <img src="/images/feature-1 1.png" alt="UI/UX Icon" />
+              <img src="/images/feature-1 1.jpeg" alt="UI/UX Icon" />
               <p>UI/UX Design Service</p>
             </div>
             <div className="service-card">

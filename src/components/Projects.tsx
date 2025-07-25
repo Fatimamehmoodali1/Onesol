@@ -40,20 +40,22 @@ const Projects = () => {
       </div>
 
       {/* ── brand strip */}
-      <div className="brand-strip">
-        <div className="brands">
-          <img src="/images/image 45.png" alt="Meta" />
-          <img src="/images/image 46.png" alt="Inc 5000" />
-          <img src="/images/image 47.png" alt="Google" />
-          <img src="/images/image 48.png" alt="AWS" />
-          <img src="/images/image 49.png" alt="Shopify" />
-          <img src="/images/image 50.png" alt="Partner" />
-          <img src="/images/image 51.png" alt="Partner" />
-          <img src="/images/image 52.png" alt="Partner" />
-          <img src="/images/image 53.png" alt="Partner" />
-          <img src="/images/image 54.png" alt="Partner" />
-        </div>
-      </div>
+      <div className="brands-section">
+       <div className="brands-bar">
+         <div className="brand-logos">
+           <img src="/images/image 45.png" alt="Meta" />
+           <img src="/images/image 46.png" alt="Inc 5000" />
+           <img src="/images/image 47.png" alt="Amazon Partner" />
+           <img src="/images/image 48.png" alt="TikTok Partner" />
+           <img src="/images/image 49.png" alt="Google Partner" />
+           <img src="/images/image 50.png" alt="Snapchat" />
+           <img src="/images/image 51.png" alt="Facebook Partner" />
+           <img src="/images/image 52.png" alt="CNBC" />
+           <img src="/images/image 53.png" alt="CNBC" />
+           <img src="/images/image 54.png" alt="CNBC" />
+         </div>
+       </div>
+     </div>
       <div className='spacer'></div>
     </section>
 

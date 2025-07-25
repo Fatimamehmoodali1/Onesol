@@ -2,21 +2,24 @@
 .trusted-section {
   background: url('/images/bg-img.png') no-repeat center center/cover;
   background-size: cover;
-  padding: 50px 20px 60px;
+  padding: 200px 80px 100px;
   text-align: center;
   color: white;
   position: relative;
 }
 
 .trusted-section h2 {
-  font-size: 65px;
+  font-size: 76px;
   font-weight: 800;
-  margin-top: 0px;
-  line-height: 1.2;
+  margin-top: -10%;
+  line-height: 1.4;
+  top: -10px;
+  gap: 20%;
+  opacity: 2;
 }
 
 .trusted-section p {
-  font-size: 18px;
+  font-size: 20px;
   opacity: 0.85;
   max-width: 700px;
   margin: 0 auto;
@@ -35,10 +38,10 @@
   background: #000;
   color: #fff;
   border: none;
-  padding: 12px 28px;
+  padding: 18px 34px;
   border-radius: 999px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   box-shadow: 0 4px 15px rgba(251, 166, 28, 0.4);
   transition: transform 0.2s ease;
   cursor: pointer;
@@ -78,7 +81,7 @@
 .cards-container {
   display: flex;
   justify-content: center;
-  gap: 18px;
+  gap: 28px;
   margin-top: -120px;
   position: relative;
   z-index: 2;
@@ -88,12 +91,12 @@
 
 .service-card {
   width: 220px;
-  height: 210px;
+  height: 230px;
   background-color: white;
   border-radius: 0;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
-  padding: 30px 20px;
+  padding: 20px 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -107,7 +110,7 @@
 }
 
 .service-card img {
-  width: 90px;
+  width: 100px;
   height: auto;
   margin-bottom: 20px;
 }
