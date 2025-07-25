@@ -80,7 +80,7 @@ import '../styles/whychoose.css';
   );
 };
 
-export default WhyChooseSection;
+// export default WhyChooseSection;
 
 
 // 'use client';
