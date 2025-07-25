@@ -100,12 +100,12 @@ export default function Navbar() {
 // =======
 // >>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
 //       </div>
-    </nav>
-  );
-}
-<<<<<<< HEAD
+//     </nav>
+//   );
+// }
+// <<<<<<< HEAD
 
 // mobile responsive 
 
-=======
->>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
+// =======
+// >>>>>>> 2452465be743ddfb65b50a8052b6f0f09fc3afa2
